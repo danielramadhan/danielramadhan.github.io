@@ -1,0 +1,116 @@
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	line-height: 1.5;
+	padding: 0;
+	margin: 0;
+	background-color: #F4F4F4;
+}
+
+/* class yang banyak */
+.container {
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+/* Header **/
+header {
+	background: #808000;
+	color: #FFFFFF;
+	padding-top: 30px;
+	min-height: 70px;
+	border-bottom: #000000 3px solid;
+}
+
+header a {
+	color: #FFFFFF;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+header ul {
+	margin: 0;
+	padding: 0;
+}
+
+header li {
+	float: left;
+	display: inline;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+header #qurbanhalal {
+float: left;
+}
+
+header #qurbanhalal h1 {
+	margin: 0;
+}
+header nav {
+	float: right;
+	margin-top: 10px;
+}
+
+/* gambar depan*/
+
+#gambardepan {
+	min-height: 400px;
+	background: url('../img/rumput.jpg');
+	background-repeat: no-repeat;
+	background-position: 0px -350px;
+	text-align: center;
+}
+
+#gambardepan h1 {
+	margin-top: 100px;
+	font-size: 55px;
+	margin-bottom: 10px;
+}
+#gambardepan p {
+	font-size: 20px;
+}
+
+/* daftar */
+
+#daftar {
+	padding: 15px;
+	color: #FFFFFF;
+	background: #35424A;
+}
+
+#daftar h1 {
+	float: left;
+}
+#daftar form {
+	float: right;
+	margin-top: 20px;
+}
+#daftar input[type="email"] {
+	padding: 4px;
+	height: 25px;
+	width: 250px;
+}
+.klikdaftar {
+	height: 38px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+/* gambarhewan */
+
+.gambarhewan {
+	float: center;
+	text-align: center;
+	padding: 10px;
+}
+
+footer {
+	padding: 20px;
+	margin-top: 20px;
+	color: #FFFFFF;
+	background-color: #000000;
+	text-align: center;
+}
